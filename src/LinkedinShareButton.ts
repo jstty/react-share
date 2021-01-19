@@ -15,7 +15,7 @@ function linkedinLink(url: string, { title, summary, source }: Options) {
   assert(url, 'linkedin.url');
 
   return (
-    'https://linkedin.com/shareArticle' +
+    'https://www.linkedin.com/sharing/share-offsite' +
     objectToGetParams({ url, mini: 'true', title, summary, source })
   );
 }
